@@ -1,0 +1,4 @@
+services:
+  mathematical_service.compute:
+    class: Drupal\mathematical_formatter\Services\MathematicalService
+    arguments: []

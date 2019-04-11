@@ -1,0 +1,19 @@
+{#
+
+Description text for the Field Example.
+
+#}
+
+{% set edit_content_types = path('entity.node_type.collection')  %}
+
+{% trans %}
+
+<p>Mathematical field formater</p>
+{#<p>Example formula <code>{{ formula }}</code> </p>#}
+{#<p>Compute <code>{{ compute }}</code> </p>#}
+
+<span id="formula" formula="{{ formula }}" compute="{{ compute }}"></span>
+
+<div id="react-app"></div>
+
+{% endtrans %}

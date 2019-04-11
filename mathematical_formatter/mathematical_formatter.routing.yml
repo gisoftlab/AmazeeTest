@@ -1,0 +1,7 @@
+# Provides a simple user interface that tells the developer where to go.
+mathematical_formatter.description:
+  path: '/mathematical/compute'
+  defaults:
+    _controller: '\Drupal\mathematical_formatter\Controller\MathematicalController::description'
+  requirements:
+    _permission: 'access content'

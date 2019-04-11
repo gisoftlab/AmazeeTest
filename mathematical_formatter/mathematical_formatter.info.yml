@@ -1,0 +1,12 @@
+name: Mathematical Formatter
+type: module
+description: 'Mathematical formatter for the text field.'
+core: 8.x
+package: Mathematical
+dependencies:
+  - field
+  - block
+  - comment
+  - node
+  - rest
+  - user
